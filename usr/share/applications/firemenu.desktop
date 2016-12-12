@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=FireMenu
+Comment=Start applications in firejail.
+Exec=/usr/bin/firemenu
+Icon=network-vpn
+Terminal=false
+Type=Application
+Categories=GTK;Utility;
+StartupNotify=true
