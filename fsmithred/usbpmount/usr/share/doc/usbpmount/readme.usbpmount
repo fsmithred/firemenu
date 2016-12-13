@@ -1,0 +1,42 @@
+						USBPMOUNT
+
+
+usbpmount.sh uses yad or zenity as a graphical frontend to pmount. It 
+allows mounting of USB drives, SD/MMC cards and CD or DVD media by 
+unprivileged users.
+
+This is not an automounter, and nothing will automatically tell you that
+you plugged in a removable device. It is assumed that you know what your
+hands are doing. It's also up to you to remember to un-mount your device
+before you unplug it. 
+
+This tool is just a clicky way to use pmount/pumount.
+
+When you mount a device, it will open in a file manager window.
+If the script chooses the wrong file manager, you can set the 
+$other_file_manager variable to the path of your preferred file manager.
+See /etc/usbpmount.conf
+
+
+thumb-pick.sh is the cli version of the script.
+
+
+usb-unmount.sh will show you what's mounted on /media and let you
+un-mount it. (USB, SD/MMC, CD/DVD)
+
+
+Depends: hwinfo, pmount, yad | zenity
+
+
+
+						INSTRUCTIONS
+
+The Debian package will put the scripts in /usr/bin/ and the icons in
+/usr/share/pixmaps. Use the icon files for panel buttons that point to the
+scripts. (green, upward pointing fork for mount; red/down for un-mount.)
+
+File system labels are supported and will be used in preference to
+device names when present.
+
+
+- fsmithred@gmail.com		May 4, 2016

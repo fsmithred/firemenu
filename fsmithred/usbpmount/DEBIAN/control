@@ -1,0 +1,11 @@
+Source: usbpmount.tar.gz
+Package: usbpmount
+Version: 1.1
+Section: utils
+Priority: optional
+Architecture: all
+Essential: no
+Depends: hwinfo, pmount, yad | zenity
+Replaces: usbpmount (<< 1.1)
+Maintainer: fsmithred@gmail.com
+Description: Graphical frontend to pmount/pumount using yad or zenity.

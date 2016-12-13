@@ -1,0 +1,13 @@
+usbpmount (1.1) unstable; urgency=low
+
+  * Changed --center to ${CENTER} so zenity will work.
+  * Show warning message if no removable media found.
+
+   -- fsmithred <fsmithred@gmail.com>  Wed, 12 Oct 2016 10:20:00 -0400
+
+
+usbpmount (1.0) unstable; urgency=low
+
+  * Packaged usbpmount, a graphical frontend to pmount using yad|zenity
+  
+   -- fsmithred <fsmithred@gmail.com>  Wed, 29 Jun 2016 11:25:00 -0400
